@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  background-color: rgb(211, 234, 255);
+}
+
+h1 {
+  text-align: center;
+  background-color: rgb(168, 168, 168);
+  padding: 2vh 0;
+  color: white;
+}
+
+.todo-input {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  padding: 4vh 0;
+}
+
+.todo-input input,
+.todo-input button {
+  padding: 10px 8px;
+  border-radius: 4px;
+}
+
+.todo-input button {
+  background-color: rgb(23, 44, 235);
+  border: 2px solid black;
+  color: white;
+}
+
+.todos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  padding: 4vh 0;
+  align-items: center;
+}
